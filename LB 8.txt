@@ -1,0 +1,27 @@
+//Задача номер 8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var num1 = [1,2,3,4,5,12];
+    var num2 = [6,7,8,9,10];
+    var max;
+
+    if (num1.length > num2.length) 
+    {
+      document.write(Math.max.apply(null, num1));
+    }
+    else
+    {
+      var alphaNum = num1.concat(num2);
+      document.write(alphaNum.reverse())
+    }
+  </script>
+</body>
+</html>
